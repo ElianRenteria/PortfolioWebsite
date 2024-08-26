@@ -98,13 +98,16 @@
     }
 
     .about__image {
-        width: 23rem;
-        border-radius: .5rem;
+        width: 20rem;
+        border-radius: 10px;
     }
 
     .about__image__container {
         display: flex;
         justify-content: center;
+    }
+    .about__hr {
+        width: 29em;
     }
 }
 
@@ -117,6 +120,9 @@
     }
     .about__ul {
         flex: 1;
+    }
+    .about__hr {
+        width: 34em;
     }
 }
 
@@ -191,6 +197,9 @@
     
     .about__li {
         font-size: var(--size-2xl);
+    }
+    .about__hr {
+        width: 50em;
     }
 }
 
